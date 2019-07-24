@@ -5,3 +5,6 @@ Because the merge is a commit that points the HEAD to a specific commit, we can 
 To revert the previous commit (our merge commit), we do:
 
 git revert HEAD
+
+
+Updated the file to get back in merge3
