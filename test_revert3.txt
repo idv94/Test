@@ -1,0 +1,10 @@
+My merge of my_feature_branch into develop broke the site. I need to save myself from further embarrassment in front of my team, so let’s undo the merge into develop.
+
+Because the merge is a commit that points the HEAD to a specific commit, we can undo the merge commit and roll back to the pre-merge state.
+
+To revert the previous commit (our merge commit), we do:
+
+git revert HEAD
+
+
+Updated the file to get back in merge3
